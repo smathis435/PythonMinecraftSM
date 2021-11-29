@@ -4,9 +4,9 @@ pos = mc.player.getPos()
 x = pos.x
 y = pos.y
 z = pos.z
-width = 50
-height = 50
-length = 450
-blockType = 20
+width = 10
+height = 5
+length = 6
+blockType = 4
 air = 0
 mc.setBlocks(x, y, z, x + width, y + height, z + length, blockType)
